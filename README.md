@@ -2,6 +2,9 @@
 
 Socio Pedia is a social media platform built using the MERN (MongoDB, Express, React, Node.js) stack with Material UI for the user interface. The platform offers a range of features for users to connect, share content, and engage with each other in a social environment.
 
+## Deployed Project
+[https://soicopedia.netlify.app/](https://soicopedia.netlify.app/)
+
 ## Tech Stack
 
 - MongoDB: [MongoDB Documentation](https://www.mongodb.com/)
