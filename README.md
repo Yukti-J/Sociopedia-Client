@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Socio Pedia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Socio Pedia is a social media platform built using the MERN (MongoDB, Express, React, Node.js) stack with Material UI for the user interface. The platform offers a range of features for users to connect, share content, and engage with each other in a social environment.
 
-## Available Scripts
+## Deployed Project
+[https://soicopedia.netlify.app/](https://soicopedia.netlify.app/)
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+- MongoDB: [MongoDB Documentation](https://www.mongodb.com/)
+- Express.js: [Express Documentation](https://expressjs.com/)
+- React: [React Documentation](https://react.dev/)
+- Node.js: [Node.js Documentation](https://nodejs.org/docs/latest/api/)
+- Material UI: [Material UI Documentation](https://material-ui.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Registration and Login:** Users can register and log in to their accounts securely.
 
-### `npm test`
+- **Authorization:** Secure user authentication and authorization mechanisms are implemented.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Dark/Light Modes:** The platform supports both dark and light modes for a personalized user experience.
 
-### `npm run build`
+- **Add/Remove Friends:** Users can connect with others by adding or removing friends.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Like/Dislike:** Users can express their preferences by liking or disliking content.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Profile Page:** Each user has a dedicated profile page to showcase personal details and activity.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Posting Content with Picture:** Users can create and share content, including pictures, with the community.
 
-### `npm run eject`
+## Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project is deployed on the following platforms:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Netlify: [Netlify Deployment](https://www.netlify.com/)
+- Render: [Render Deployment](https://render.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Visit the deployed Socio Pedia application: [Socio Pedia on Netlify](https://soicopedia.netlify.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Documentation
 
-## Learn More
+Explore the official documentation for the technologies used:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React: [React Documentation](https://react.dev/)
+- Node.js: [Node.js Documentation](https://nodejs.org/docs/latest/api/)
+- Express.js: [Express Documentation](https://expressjs.com/)
+- MongoDB: [MongoDB Documentation](https://www.mongodb.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How to Run Locally
 
-### Code Splitting
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install` in both the client and server directories.
+4. Set up MongoDB and update the connection string in the server configuration.
+5. Here's the link of the [server side](https://github.com/Yukti-J/Sociopedia-MERN) 
+6. Run the server using `nodemon index.js` in the server directory.
+7. Run the client using `npm start` in the client directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome! Feel free to open issues and submit pull requests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
