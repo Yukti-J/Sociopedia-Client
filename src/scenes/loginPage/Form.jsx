@@ -67,7 +67,7 @@ const Form = () => {
         const savedUserResponse = await fetch(
             `${BASE_URL}/auth/register`,
             {
-                method: "POST",
+                method: "POST", 
                 body: formData, 
             }
 

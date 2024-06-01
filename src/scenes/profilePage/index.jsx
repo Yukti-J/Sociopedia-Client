@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, useMediaQuery } from '@mui/material'
 import { useEffect, useState } from 'react'
-import { UseSelector, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { useParams } from 'react-router'
 import Navbar from 'scenes/navbar'
 import FriendListWidget from 'scenes/widgets/FriendListWidget'
